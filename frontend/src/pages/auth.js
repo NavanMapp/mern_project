@@ -1,3 +1,25 @@
 export const Auth = () => {
-    return <div> Login / Register </div>
+    return (
+        <div className='auth'>
+            <Login />
+            <Register />
+        </div>
+    )
+}
+
+const Login = () => {
+    return (
+        <div className='auth'>
+            <Login />
+            <Register />
+        </div>
+    )
+}
+
+const Register = () => {
+    return (
+        <div className='auth-container'>
+            <Register />
+        </div>
+    )
 }
